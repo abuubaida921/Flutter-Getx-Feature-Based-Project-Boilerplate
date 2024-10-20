@@ -289,7 +289,7 @@
 //
 //   static Future<void> showTextNotification(String title, String? body, String orderID, FlutterLocalNotificationsPlugin fln) async {
 //     const AndroidNotificationDetails androidPlatformChannelSpecifics = AndroidNotificationDetails(
-//       'demandium', 'demandium', playSound: true,
+//       'app_name', 'app_name', playSound: true,
 //       importance: Importance.max, priority: Priority.max, sound: RawResourceAndroidNotificationSound('notification'),
 //     );
 //     int randomNumber = Random().nextInt(100);
@@ -304,7 +304,7 @@
 //     );
 //     if(!Get.find<AuthController>().isNotificationActive()){
 //       AndroidNotificationDetails androidPlatformChannelSpecifics = AndroidNotificationDetails(
-//         "demandiumWithoutsound","demandium without sound", channelDescription:"description",
+//         "app_nameWithoutsound","app_name without sound", channelDescription:"description",
 //         playSound: false,
 //         importance: Importance.max,
 //         styleInformation: bigTextStyleInformation, priority: Priority.max,
@@ -318,7 +318,7 @@
 //     }
 //     else {
 //       AndroidNotificationDetails androidPlatformChannelSpecifics = AndroidNotificationDetails(
-//         "demandium", 'demandium with sound', channelDescription:"description",
+//         "app_name", 'app_name with sound', channelDescription:"description",
 //         playSound: true,
 //         sound: const RawResourceAndroidNotificationSound('notification'),
 //         importance: Importance.max,
@@ -340,7 +340,7 @@
 //     );
 //     if(!Get.find<AuthController>().isNotificationActive()){
 //       AndroidNotificationDetails androidPlatformChannelSpecifics = AndroidNotificationDetails(
-//         "demandiumWithoutsound","demandium without sound", channelDescription:"description",
+//         "app_nameWithoutsound","app_name without sound", channelDescription:"description",
 //         playSound: false,
 //         largeIcon: FilePathAndroidBitmap(largeIconPath), priority: Priority.max,
 //         styleInformation: bigPictureStyleInformation, importance: Importance.max,
@@ -351,7 +351,7 @@
 //
 //     }else{
 //       AndroidNotificationDetails androidPlatformChannelSpecifics = AndroidNotificationDetails(
-//         "demandium", 'demandium with sound', channelDescription:"description",
+//         "app_name", 'app_name with sound', channelDescription:"description",
 //         playSound: true,
 //         sound: const RawResourceAndroidNotificationSound('notification'),
 //         largeIcon: FilePathAndroidBitmap(largeIconPath), priority: Priority.max,

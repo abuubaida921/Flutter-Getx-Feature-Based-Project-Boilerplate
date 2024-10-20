@@ -2,7 +2,7 @@ import '../../../utils/core_export.dart';
 
 class AppConstants {
 
-  static const String appName = 'Demandium';
+  static const String appName = 'App Name';
   static const String appVersion = '2.9';
   static const String baseUrl = 'https://demandium-admin.6amtech.com';
   static const bool avoidMaintenanceMode = false;

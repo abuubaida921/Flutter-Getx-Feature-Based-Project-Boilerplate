@@ -2,7 +2,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 import '../../../utils/core_export.dart';
 import 'package:get/get.dart';
 
-const kLogTag = "[demandium]";
+const kLogTag = "[app_name]";
 const kLogEnable = true;
 DateTime? loginClickTime;
 
